@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="650.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.settingsController">
+   <children>
+      <JFXButton fx:id="addTestBttn" layoutX="56.0" layoutY="223.0" onAction="#addTest" prefHeight="64.0" prefWidth="120.0" style="-fx-background-color: #00DD00;" text="Add Tests" />
+      <JFXButton fx:id="configureTestBttn" layoutX="323.0" layoutY="213.0" onAction="#configureTest" prefHeight="74.0" prefWidth="121.0" style="-fx-background-color: #CC0000;" text="Configure Tests" />
+      <JFXButton fx:id="addCategoryBttn" layoutX="613.0" layoutY="225.0" onAction="#addCategory" prefHeight="62.0" prefWidth="150.0" style="-fx-background-color: #00AA00;" text="Add Category" />
+   </children>
+</AnchorPane>

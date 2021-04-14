@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="100.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="application.DialogBoxEmptyFieldController">
+   <children>
+      <JFXButton fx:id="exitButton" layoutX="221.0" layoutY="61.0" onAction="#exitFuntion" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #dcdcdc;" text="OK" />
+      <Text layoutX="18.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You are missing text fields. Please try again later." wrappingWidth="262.8034133911133" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<DialogPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SelectTestDialogBox">
+   <content>
+      <AnchorPane prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" layoutX="87.0" layoutY="43.0" prefHeight="37.0" prefWidth="108.0" text="Categories of Test" />
+            <TableView fx:id="catTable" layoutX="70.0" layoutY="81.0" prefHeight="131.0" prefWidth="142.0">
+              <columns>
+                <TableColumn fx:id="catCol" prefWidth="140.66667938232422" text="Categories" />
+              </columns>
+            </TableView>
+            <TableView fx:id="subjectTable" layoutX="41.0" layoutY="264.0" prefHeight="294.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="testSubjectCol" prefWidth="197.33337783813477" text="Test Subjects" />
+              </columns>
+            </TableView>
+            <TableView fx:id="tableTest" layoutX="279.0" layoutY="264.0" prefHeight="293.0" prefWidth="200.0">
+              <columns>
+                <TableColumn fx:id="testCol" prefWidth="198.66665649414062" text="Test Name" />
+              </columns>
+            </TableView>
+            <JFXButton fx:id="nextBttn" layoutX="495.0" layoutY="525.0" onAction="#enterTestFunction" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: #DCDCDC;" text="Next" />
+            <TableView fx:id="selectedTests" layoutX="264.0" layoutY="80.0" prefHeight="131.0" prefWidth="287.0">
+              <columns>
+                <TableColumn fx:id="selectedCol" prefWidth="285.99998982747394" text="Selected Tests" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </content>
+</DialogPane>

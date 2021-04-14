@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DialogBoxExistingUserController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="100.0" prefWidth="300.0">
+         <children>
+            <Text layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error: Given Patient ID already exist. Please select a new ID. " wrappingWidth="279.4700698852539" />
+            <JFXButton fx:id="exitButton" layoutX="191.0" layoutY="61.0" onAction="#closeDialogBox" prefHeight="25.0" prefWidth="75.0" ripplerFill="BLACK" style="-fx-background-color: #DCDCDC;" text="OK" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="190.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NavController">
+   <children>
+      <JFXButton fx:id="createNewBtn" accessibleText="button1" prefHeight="60.0" prefWidth="190.0" text="Create New Report" />
+      <JFXButton fx:id="viewReportBtn" accessibleText="button2" prefHeight="60.0" prefWidth="190.0" text="View Reports" />
+      <JFXButton fx:id="CommisionReportBtn" accessibleText="button3" prefHeight="60.0" prefWidth="190.0" text="Commision" />
+      <JFXButton fx:id="SettingBtn" accessibleText="button4" prefHeight="60.0" prefWidth="190.0" text="Settings" />
+      <JFXButton fx:id="AbtBtn" accessibleText="button5" prefHeight="60.0" prefWidth="190.0" text="About" />
+   </children>
+</VBox>

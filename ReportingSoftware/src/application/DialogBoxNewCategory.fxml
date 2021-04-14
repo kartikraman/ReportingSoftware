@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<DialogPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="150.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DialogBox">
+   <graphic>
+      <AnchorPane prefHeight="150.0" prefWidth="350.0">
+         <children>
+            <Label layoutX="14.0" layoutY="35.0" prefHeight="30.0" prefWidth="130.0" text="Name of new Category" />
+            <JFXTextField fx:id="newCategoryTF" layoutX="163.0" layoutY="36.0" prefHeight="30.0" prefWidth="130.0" />
+            <JFXButton fx:id="addBttn" layoutX="14.0" layoutY="110.0" onAction="#addNewCategory" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #0000AA;" text="Add" />
+            <JFXButton fx:id="close" layoutX="163.0" layoutY="110.0" onAction="#closeOnAction" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: #0000AA; -fx-border-color: #000000;" text="Close" />
+         </children>
+      </AnchorPane>
+   </graphic>
+</DialogPane>

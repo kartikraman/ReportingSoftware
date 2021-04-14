@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DialogBoxFillTestController">
+   <content>
+      <AnchorPane fx:id="dialogBoxAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <VBox fx:id="testVbox" layoutX="18.0" layoutY="55.0" prefHeight="353.0" prefWidth="177.0" spacing="20.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="46.0" prefWidth="181.0" text="Tests">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="valuesVbox" layoutX="196.0" layoutY="55.0" prefHeight="353.0" prefWidth="165.0" spacing="20.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="46.0" prefWidth="167.0" text="Values">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <JFXButton fx:id="nextButton" layoutX="392.0" layoutY="341.0" onAction="#nextOption" prefHeight="45.0" prefWidth="93.0" style="-fx-background-color: #DCDCDC;" text="Next">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </content>
+</DialogPane>
